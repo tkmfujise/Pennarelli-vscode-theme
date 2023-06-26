@@ -1,0 +1,26 @@
+{
+  "name": "pennarelli-theme",
+  "displayName": "Pennarelli-theme",
+  "description": "VSCode light theme inspired by whiteboards and  colourful pens",
+  "publisher": "tkmfujise",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.79.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tkmfujise/Gessetti-vscode-theme"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Pennarelli",
+        "uiTheme": "vs",
+        "path": "./themes/Pennarelli-color-theme.json"
+      }
+    ]
+  }
+}
