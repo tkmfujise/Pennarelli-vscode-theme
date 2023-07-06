@@ -3,7 +3,7 @@
   "displayName": "Pennarelli-theme",
   "description": "VSCode light theme inspired by whiteboards and colourful pens",
   "publisher": "tkmfujise",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.79.0"
   },

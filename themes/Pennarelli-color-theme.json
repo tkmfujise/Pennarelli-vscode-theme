@@ -46,11 +46,18 @@
 			}
 		},
 		{
+			"name": "Type name in definition",
+			"scope": "meta.function.definition entity.name.type",
+			"settings": {
+				"foreground": "#f47628"
+			}
+		},
+		{
 			"name": "Function name",
 			"scope": "entity.name.function",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#aa2ec6"
+				"foreground": "#bb23de"
 			}
 		},
 		{
@@ -137,8 +144,19 @@
 			}
 		},
 		{
+			"name": "Other Variable Readwrite",
+			"scope": "variable.other.readwrite",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#20a3ba"
+			}
+		},
+		{
 			"name": "Variable Constant",
-			"scope": "variable.other.constant",
+			"scope": [
+				"variable.other.constant",
+				"meta.attribute"
+			],
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#47a2b7"
@@ -162,9 +180,19 @@
 		},
 		{
 			"name": "Function Call",
-			"scope": "meta.function-call entity.name.function",
+			"scope": [
+				"meta.function-call entity.name.function",
+				"meta.function.call entity.name.function"
+			],
 			"settings": {
-				"foreground": "#d9129d"
+				"foreground": "#c1148d"
+			}
+		},
+		{
+			"name": "Meta Macro Function",
+			"scope": "meta.macro entity.name.function",
+			"settings": {
+				"foreground": "#f31b29"
 			}
 		},
 		{
