@@ -41,15 +41,35 @@
 			"name": "Type name",
 			"scope": "entity.name.type",
 			"settings": {
+				"foreground": "#000000",
+			}
+		},
+		{
+			"name": "Type name primary",
+			"scope": [
+				"entity.name.type.class",
+				"entity.name.type.module",
+				"entity.name.type.trait",
+				"entity.name.type.struct",
+				"entity.name.type.enum",
+				"entity.name.type.declaration",
+			],
+			"settings": {
 				"fontStyle": "underline",
-				"foreground": "#000000"
 			}
 		},
 		{
 			"name": "Type name in definition",
-			"scope": "meta.function.definition entity.name.type",
+			"scope": [
+				"meta.function entity.name.type",
+				"entity.name.type.primitive",
+				"entity.name.type.numeric",
+				"entity.name.type.lifetime",
+				"entity.name.type.macro",
+			],
 			"settings": {
-				"foreground": "#f47628"
+				"foreground": "#e3770a",
+				"fontStyle": "",
 			}
 		},
 		{
