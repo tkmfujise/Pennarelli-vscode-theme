@@ -219,7 +219,7 @@
 			"name": "Invalid",
 			"scope": "invalid",
 			"settings": {
-				"foreground": "#F8F8F8"
+				"foreground": "#989898"
 			}
 		},
 		{
@@ -506,6 +506,7 @@
 		"editorWhitespace.foreground": "#FFFFFF26",
 		"editor.lineHighlightBackground": "#f1f6f6bf",
 		"editor.selectionBackground": "#eeeec4bf",
+		"editor.snippetTabstopHighlightBackground": "#eeeec4bf",
 
 		// Tab
 		"tab.activeBackground": "#f9dafc",
